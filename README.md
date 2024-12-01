@@ -1,14 +1,9 @@
 # Nuts
+Nuts is a simple (and smart) application to serve desktop-application(https://www.herokucdn.com
 
-Nuts is a simple (and smart) application to serve desktop-application releases.
+/deploy/button.png)]
 
-![Schema](./docs/schema.png)
-
-It uses GitHub as a backend to store assets, and it can easily be deployed to Heroku as a stateless service. It supports GitHub private repositories (useful to store releases of a closed-source application available on GitHub).
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-#### Features
+Feature/
 
 - :sparkles: Store assets on GitHub releases
 - :sparkles: Proxy releases from private repositories to your users
