@@ -2,7 +2,7 @@
 
 Nuts is a simple (and smart) application to serve desktop-application releases.
 
-![Schema](./schema.png)
+![Schema](./docs/schema.png)
 
 It uses GitHub as a backend to store assets, and it can easily be deployed to Heroku as a stateless service. It supports GitHub private repositories (useful to store releases of a closed-source application available on GitHub).
 
@@ -29,16 +29,17 @@ It uses GitHub as a backend to store assets, and it can easily be deployed to He
 - :sparkles: Release notes endpoint
     - `/notes/:version`
 - :sparkles: Up-to-date releases (GitHub webhooks)
+- :sparkles: Atom/RSS feeds for versions/channels
 
 #### Deploy it / Start it
 
-[Follow our guide to deploy Nuts](docs/dpeloy.md).
+[Follow our guide to deploy Nuts](https://nuts.gitbook.com/deploy.html).
 
 
 #### Auto-updater / Squirrel
 
-This server provides an endpoint for [Squirrel auto-updater](https://github.com/atom/electron/blob/master/docs/api/auto-updater.md), it supports both [OS X](docs/update-osx.md) and [Windows](docs/update-windows.md).
+This server provides an endpoint for [Squirrel auto-updater](https://github.com/atom/electron/blob/master/docs/api/auto-updater.md), it supports both [OS X](https://nuts.gitbook.com/update-osx.html) and [Windows](https://nuts.gitbook.com/update-windows.html).
 
 #### Documentation
 
-[Check out the documentation](docs/) for more details.
+[Check out the documentation](https://nuts.gitbook.com) for more details.
